@@ -8,7 +8,7 @@ SELECT
     , times_homeless_3yrs
     , times_homeless_past_year
     , current_stint_duration
-    , CAST(current_stint_duration_detailed AS VARCHAR(10)) AS current_stint_duration_detailed
+    , current_stint_duration_detailed
     , 'unsheltered_2011' AS data_table 
 FROM rbarner.unsheltered_2011
 
@@ -36,7 +36,7 @@ SELECT
     , times_homeless_3yrs
     , times_homeless_past_year
     , current_stint_duration
-    , CAST(current_stint_duration_detailed AS VARCHAR(10)) AS current_stint_duration_detailed
+    , current_stint_duration_detailed
     , 'unsheltered_2015' AS data_table
 FROM rbarner.unsheltered_2015
 
@@ -67,3 +67,4 @@ SELECT
     , CAST(current_stint_duration_detailed AS VARCHAR(10)) AS current_stint_duration_detailed
     , 'unsheltered_2017' AS data_table
 FROM rbarner.unsheltered_2017
+
